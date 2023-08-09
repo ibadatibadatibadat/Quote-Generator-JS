@@ -7,6 +7,15 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="quote-box">
+      <h2>Quote Of The Day</h2>
+      <blockquote id="quote">Loading...</blockquote>
+      <span id="author">Loading...</span>
+      <div>
+        <button onclick="get_quote(api_url);">New Quote</button>
+        <button onclick="tweet();"><img src="twitter.png" /> Tweet</button>
+      </div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
